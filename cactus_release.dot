@@ -1,0 +1,55 @@
+digraph G {
+	fontname="Monaco,Arial,sans-serif"
+	node [fontname="Monaco,Arial,sans-serif", shape=circle, penwidth=3]
+	edge [fontname="Monaco,Arial,sans-serif", weight=2.0, penwidth=3]
+    graph [nodesep="1", ranksep = "0.5"]
+	subgraph cluster_0 {
+		style=filled;
+		color=lightgrey;
+		node [label="", style=filled, color=white];
+        edge[weight=1.0]
+        a0[color=deepskyblue, xlabel="v1.1.0"]
+        a1[color=chartreuse4]
+        a2 [color=gold]
+        a3[color=chartreuse4]
+        a31[color=deepskyblue, xlabel="v1.1.0"]
+        a4[color=chartreuse4]
+        a5[color=gold]
+        a6[color=gold]
+        a7[color=chartreuse4]
+        a8[color=chartreuse4]
+		a0 -> a1 -> a2 -> a3 -> a4 -> a31 -> a5 -> a6 -> a7 -> a8 [weight=100]
+		label = "master";
+	}
+
+	subgraph cluster_1 {
+		node [label="", style=filled];
+        edge[weight=1.0]
+        b1 [color = gold]
+        b2 [color = deepskyblue, xlabel="v1.0.1"]
+        b1 -> b2;
+		label = "release/v1.0.0";
+		color=blue
+	}
+
+    subgraph cluster_2 {
+		node [label="", style=filled];
+        edge[weight=1.0]
+        c1[color=gold]
+        c2[color=deepskyblue, xlabel = "v1.1.1" ]
+        c3[color=gold]
+        c4[color=deepskyblue, xlabel = "v1.1.2"]
+        c1 -> c2 -> c3 -> c4;
+		label = "release/v1.1.0";
+		color=blue
+	}
+
+    a0 -> b1 [weight=100]
+    b1 -> a2 [color = gold, label = "ff", style=tapered]
+    
+    a31 -> c1 [weight=100]
+    
+
+    c1 -> a5 [color=gold, label = "ff", style=tapered]
+    c3 -> a6 [color=gold, label = "ff", style=tapered]
+}
