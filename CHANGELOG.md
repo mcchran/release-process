@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/mcchran/release-process/compare/v1.1.0...v1.2.0) (2022-05-05)
+
+
+### Features
+
+* **new:** adds anotherfeature to main ([4987c97](https://github.com/mcchran/release-process/commit/4987c97311be2681321cb0ac2e81d536ddc68afc))
+
+
+### Bug Fixes
+
+* this is a fix ([3b8777a](https://github.com/mcchran/release-process/commit/3b8777a455c06a47c3fb60607c5f401acd142420))
+
 ## [1.1.0](https://github.com/mcchran/release-process/compare/v1.0.0...v1.1.0) (2022-05-03)
 
 
