@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://github.com/mcchran/release-process/compare/v1.2.0...v1.2.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* this is another fix ([66e109f](https://github.com/mcchran/release-process/commit/66e109f77b2e6182b384b0ee332014ece415a650))
+
 ## [1.2.0](https://github.com/mcchran/release-process/compare/v1.1.0...v1.2.0) (2022-05-05)
 
 
