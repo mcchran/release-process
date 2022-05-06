@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://github.com/mcchran/release-process/compare/v1.2.1...v1.3.0) (2022-05-06)
+
+
+### Features
+
+* **yes:** it sound good ([1de6ffc](https://github.com/mcchran/release-process/commit/1de6ffca47f8ab8900ea052fe177695a2dde4a64))
+
+
+### Bug Fixes
+
+* build path ([7eb0178](https://github.com/mcchran/release-process/commit/7eb0178d149f8f5aae9df9d8b7a8448da5d99b5e))
+* paths ([392b6f1](https://github.com/mcchran/release-process/commit/392b6f150856645f4b796fb7f920d349def4f831))
+* workflow issue ([ff32515](https://github.com/mcchran/release-process/commit/ff32515a621d8d23b89541e149991f1546c536a9))
+
 ### [1.2.1](https://github.com/mcchran/release-process/compare/v1.2.0...v1.2.1) (2022-05-05)
 
 
