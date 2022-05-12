@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.1](https://github.com/mcchran/release-process/compare/v1.3.0...v1.3.1) (2022-05-12)
+
+
+### Bug Fixes
+
+* **release-please:** add PAT to release ([e5220b1](https://github.com/mcchran/release-process/commit/e5220b1ce4a6c6cd87bfa22251d3c18027a59fd9))
+
 ## [1.3.0](https://github.com/mcchran/release-process/compare/v1.2.1...v1.3.0) (2022-05-06)
 
 
