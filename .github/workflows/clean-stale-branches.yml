@@ -17,5 +17,5 @@ jobs:
           date: '1 minutes ago'
           dry_run: false
           delete_tags: true
-          extra_protected_branch_regex: ^main$
+          extra_protected_branch_regex: ^(main|release)
           exclude_open_pr_branches: true
