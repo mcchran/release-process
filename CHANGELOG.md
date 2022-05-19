@@ -1,5 +1,23 @@
 # Changelog
 
+### [1.3.2](https://github.com/mcchran/release-process/compare/v1.3.1...v1.3.2) (2022-05-19)
+
+
+### Features
+
+* should delete stale branches ([0c0c416](https://github.com/mcchran/release-process/commit/0c0c4160d8c15af9152008de51c547dc92f25c8b))
+
+
+### Bug Fixes
+
+* clean up branches skips protected ones ([b2bbc73](https://github.com/mcchran/release-process/commit/b2bbc731994cb8d47c07f5a05cc59f40689cac83))
+* hot-fix ([a04be96](https://github.com/mcchran/release-process/commit/a04be963b85a6ff913e18d3f0026e88093290e22))
+* hot-fix ([4722693](https://github.com/mcchran/release-process/commit/4722693efa393eb133e1f0569ff69093a19ab972))
+* hot-fix ([3dbb92b](https://github.com/mcchran/release-process/commit/3dbb92bd5f39114ae257efb0ad554bb9294f73dd))
+* remove dry run from clean branch clean up ([94f285f](https://github.com/mcchran/release-process/commit/94f285f682e2ae68c3740dd9ba65ec31278dd085))
+* test ([283933f](https://github.com/mcchran/release-process/commit/283933f2fe1054fe7eab8318635244ce2e249638))
+* update push rules ([64c7b88](https://github.com/mcchran/release-process/commit/64c7b8805f4087706ce6ca45581837be3f3f4f6a))
+
 ### [1.3.1](https://github.com/mcchran/release-process/compare/v1.3.0...v1.3.1) (2022-05-12)
 
 
