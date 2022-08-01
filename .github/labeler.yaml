@@ -1,0 +1,6 @@
+with tests:
+- any: ['**/*_test.go']
+
+github:
+- any: ['.github/**']
+  # all: ['!warehouse/**/*']
